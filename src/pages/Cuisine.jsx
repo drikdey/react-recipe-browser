@@ -45,6 +45,7 @@ const Card = styled.div`
     height: 100%;
     width: 100%;
     border-radius: 2rem;
+    object-fit: cover;
   }
   a {
     text-decoration: none;
