@@ -24,7 +24,7 @@ function Result() {
     <Grid>
       {result.map((item) => {
         return (
-          <Card>
+          <Card key={item.id}>
             <div>
               <img src={item.image}></img>
               <h4>{item.title}</h4>
