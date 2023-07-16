@@ -53,7 +53,7 @@ const SLink = styled(NavLink)`
     font-size: 1.5rem;
     z-index: 10;
     position: absolute;
-    bottom: 40%;
+    top: 30%;
   }
 
   h4 {
